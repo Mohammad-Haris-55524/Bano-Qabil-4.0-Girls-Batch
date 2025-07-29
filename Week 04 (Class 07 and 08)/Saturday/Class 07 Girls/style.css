@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+
+@font-face {
+    font-family: "meriMarziKaName";
+    src:url(./fonts/Arvo/Arvo-Regular.ttf) format('truetype');
+    src: url(./fonts/Arvo/Arvo-Bold.ttf) format('truetype');
+}
+/* External css */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+/* h2{
+    background-color: green!important;
+} */
+body{
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-family: "Lobster"; */
+    /* font-family: "Arvo" */
+    font-family: "meriMarziKaName";
+}
+h1{
+      /* font-family: "Lobster" sans-serif; */
+    font-family: "Arvo"
+
+}
+h2{
+    background-color: green;
+    font-weight: 100;
+    /* font-size: 10px; */
+    font-style: italic;
+}
+
+#exter1{
+    background-color: black;
+}
+
+.class01{
+    background-color: brown!important;
+}
+
+.css-colors{
+    /* RGB COLORS */
+    background-color: black;
+    color:rgb(28, 129, 218);
+    /* RGBA COLORS */
+    color: rgb(28, 129, 218, 0.5);
+    /* HEX COLORS */
+    background-color: #8984a0;
+    /* Hue COLORS */
+    background-color: hsl(96, 35%, 57%);
+
+}
+
+h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 5px;
+    /* Shorthands */
+    margin: 20px;
+    margin: 20px 90px;
+    margin: 5px 10px 15px 20px;
+padding: 10px 50px;
+}
+div{
+    height: 50vh;
+}
+span{
+    /* top bottom margin does not work on inline elements */
+     margin: 5px 10px 15px 20px; 
+     /* top bottom padding does not work on inline elements */
+     padding: 10px 120px;
+     display: inline-block;
+}

@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Internal css -->
+    <style>
+        h2{
+            background-color: red;
+        }
+        .class02{
+            background-color: yellow
+        }
+        /* .same-class{
+            border: 4px solid red;
+        }  */
+    </style>
 </head>
 <body>
-    
+    <h1 class="same-class" >Internal css vs External css vs Inline css + specificity</h1>
+     <h2 class="same-class"  style="background-color: aquamarine;">Inline css</h2>
+    <!-- <h2 style="background-color: blanchedalmond;">Internal css</h2> -->
+      <h2 class="same-class" >Internal css</h2>
+    <h2 class="same-class"  class="class02" class="class01" style="background-color: lightgreen;" id="exter1">External CSS</h2>
+
+    <br><br>
+    <h1 class="css-colors">Colors in css</h1>
+    <br><br>
+
+    <h1>Display property in css</h1>
+    <h3 style="border: 2px solid green; width: 200px; height: 50px; ">Introduction</h3>
+    <p style="border: 2px solid yellowgreen;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, mollitia?</p>
+    <div style="background-color: aqua;">
+        <span style="border: 2px solid rgb(205, 120, 50);">Lorem ipsum doloetur adipisicing elit. Vel, molestias!</span>
+        <span style="border: 2px solid rgb(50, 205, 128);">Lorem ipsum dolctetur adipisicing elit. Vel, molestias!</span>
+        <!-- <span style="border: 2px solid rgb(205, 50, 58);">Lorem met consectetur adipisicing elit. Vel, molestias!</span> -->
+<!-- Horizontal padding (left and right) works as expected on inline elements, affecting both the visual appearance and the horizontal layout.
+Vertical padding (top and bottom) will extend the background and border visually but will not affect the vertical flow or spacing of the content. -->
+    </div>
+
 </body>
 </html>
