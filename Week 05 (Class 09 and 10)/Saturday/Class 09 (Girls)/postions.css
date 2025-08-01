@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{background-color: aqua;}
+
+.parent{
+    border: 5px solid black;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    /* position: relative; */
+    /* position: absolute; */
+
+}
+
+.child1,.child2,.child3,.child4{
+    width: 80vw;
+    height: 20vh;
+    margin: 10px auto;
+}
+
+.child1{
+    background-color: red;
+    /* top: 50px; */
+    /* position: relative; */
+  
+}
+
+.child2{
+    background-color: blue;
+    /* z-index: 1; */
+    /* position: relative; 
+    bottom: 20px;
+    right: 20px; */
+     /* position: absolute;   */
+
+  
+
+}
+.child3{
+    background-color: yellow;
+    /* ----------------------------------------------------- */
+    /* How to center a absolute positioned container  */
+     /* position: absolute;  
+     left: 0;
+     right: 0; */
+    /* ----------------------------------------------------- */
+    /* position: absolute;  
+     /* top: 0; */
+ 
+}
+.child4{
+    background-color:green;
+    /* position: absolute;  An element with position: absolute; in CSS is positioned relative to its nearest positioned ancestor. */
+    /* top: 0; */
+     /* position: absolute;   */
+
+
+
+}

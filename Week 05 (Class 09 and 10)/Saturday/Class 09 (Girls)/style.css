@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 20px;
+}
+.box{
+    border: 2px solid red;
+    /* width: 1280px; */
+    width: 80vw;
+    background-color: azure;
+    margin: auto;
+    height: 10vh;
+    
+}
+
+.homescreen{
+    background-color: aqua;
+    border: 2px solid red;
+     width: 80vw;
+     margin: 20px auto;
+     /* height: 83vh; */
+     min-height: 83vh;
+     font-size: 18px;
+
+}
+
+.homescreen > p {
+/* .homescreen p { */
+    font-size: 2em;
+}
+.child-1{
+    background-color: rgb(6, 217, 62);
+}
+.child-2{
+    background-color: rgb(217, 52, 6);
+    font-size: 40px;
+}
+.child-2 p {
+    font-size: 2em;
+}
+
+.child-3{
+    font-size: 3rem;
+    background-color: blanchedalmond;
+}
+
+footer{
+    background-color: yellow;
+    width: 80vw;
+    margin: auto;
+}
+
+.viewport{
+    background-color: green;
+    /* height: 80vw; */
+    width: 80vw;
+    margin: auto;
+}
