@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    background-color: aqua;
+}
+
+.parent {
+    border: 5px solid black;
+    height: 90vh;
+display: flex;
+background-color: antiquewhite;
+/* flex-wrap: wrap; */
+justify-content: center;
+align-items: center;
+/* align-content: stretch; */
+}
+.childs{
+width: 25%;
+height: 20vh;
+border: 2px solid black;
+margin: 0 10px;
+}
+
+.child2{
+/* order: 1; */
+/* flex-grow: 1; */
+}
+
+
+.child3{
+    /* order: 2; */
+    /* flex-grow: 2; */
+}
+.child8{
+    /* order: 3; */
+    /* flex-grow: 1; */
+}
+
+.child5{
+    /* flex-shrink: 2; */
+    background-color: rebeccapurple;
+    /* flex-basis: 500px */
+    flex: 1 0 400px;
+    align-self: flex-start;
+}
