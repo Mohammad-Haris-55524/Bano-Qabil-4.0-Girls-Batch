@@ -59,3 +59,7 @@ footer{
     width: 80vw;
     margin: auto;
 }
+
+a:visited {
+  color: green;
+}
