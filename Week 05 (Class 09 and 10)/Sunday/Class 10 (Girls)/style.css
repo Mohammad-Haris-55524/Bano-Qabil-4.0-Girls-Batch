@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 100%;
+    height: 90vh;
+    background-color: aquamarine;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row; /* By default, it is row */
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+    flex-flow: row wrap; /* Shorthand for flex-direction and flex-wrap */
+    justify-content:space-between; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+/* align-items: stretch; */
+/* align-content: center; Centers the flex lines */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+
+}
+.childs{
+    width: 18%;
+    height: 12%;
+    background-color: coral;
+    border: 5px solid black;
+}
+
+.child1{
+/* order: 1; */
+    flex-shrink: 2; /* Allows this item to shrink if necessary */
+/* flex-basis: 22%; */
+
+
+}
+.child2{
+    /* order: 2; */
+    align-self: flex-start; /* Aligns this item to the start of the cross axis */
+}
+
+.child3{
+    /* flex-grow: 1 */
+    flex: 0 0 25%; /* Shorthand for flex-grow, flex-shrink, and flex-basis */
+    
+}
+
+.child4{
+    flex-grow: 1
+    
+}
+
+.child8{
+    /* order: 3; */
+    /* Allows this item to grow and take up available space */
+    flex-grow: 1; /* Same as grow */
+}
+
+.float-container{
+    width: 80%;
+    /* height: 90vh; */
+    border: 5px solid black;
+    margin: auto;
+    overflow: hidden;
+    display: flow-root; /* Creates a new block formatting context */
+}
+.img1{
+    float: right; /* Floats the image to the right */
+    float: left;
+    border: 2px solid black;
+
+}
+.img2{
+    float: right; /* Floats the image to the right */
+    border: 2px solid black;
+    
+
+}
+.float-3{
+    background-color: aquamarine;
+    border: 2px solid black;
+    clear: left; /* Clears the left float */
+    clear: right;
+    clear: both; /* Clears both floats */
+}
+.float-4{
+    background-color: coral;
+    border: 2px solid black;
+}   
