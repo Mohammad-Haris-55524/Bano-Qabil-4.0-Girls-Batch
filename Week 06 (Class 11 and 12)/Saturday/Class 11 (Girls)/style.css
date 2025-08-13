@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.mouse-hover {
+  background-color: green;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  /* display: inline; */
+}
+
+.mouse-hover:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.hover-show{
+    background-color: burlywood;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.hover-show > p{
+    background-color: lightseagreen;
+display: none;
+    
+}
+.hover-show:hover > p{
+    display: block;
+}
+
+p i:last-child {
+  color: blue;
+} 
+p > span{
+    color: red;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.para::first-line{
+/* .para::first-letter{ */
+    color: brown;
+ font-size: 3rem;
+}
+
+input[type="text"] {
+       width: 40%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+.border-image{
+    /* border: 10px solid red; */
+    /* border-image: url("https://images.unsplash.com/flagged/photo-1563692040599-7e7d379d37b5?q=80&w=475&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") 30 round; */
+-webkit-box-shadow: -7px 14px 21px 1px rgba(0,0,0,0.81); 
+box-shadow: -7px 14px 21px 1px rgba(0,0,0,0.81);
+}
+
+
