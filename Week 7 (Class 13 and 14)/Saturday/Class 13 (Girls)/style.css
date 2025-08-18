@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Default styles for all screens */
+body {
+  background-color: white;
+}
+
+@media (min-width: 414px) and (max-width: 500px) {
+  /* Styles applied when screen width is between 769px and 1024px (e.g., for specific tablet sizes) */
+  body {
+    background-color: lightskyblue;
+  }
+}
+
+@media (orientation: portrait) {
+  /* CSS rules for portrait orientation */
+   body {
+    background-color: yellow;
+  }
+}
+
+@media (orientation: landscape) {
+  /* CSS rules for landscape orientation */
+   body {
+    background-color: red;
+  }
+}
+.parent{
+  max-width: 900px;
+min-width: 400px;
+  /* max-width: 900px;
+  min-width: 400px; */
+  border: 2px solid black;
+  /* overflow: hidden; */
+
+}
+.parent img{
+  width: 100%;
+}
+
+.parent:hover{
+    -webkit-box-shadow: 10px 11px 27px 13px rgba(0,0,0,0.7); 
+box-shadow: 10px 11px 27px 13px rgba(0,0,0,0.7);
+}
+
+.translate-example {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+
+}
+.translate-example:hover {
+  /* transform: translate(50px, 50px); */
+    /* transform: rotate(-120deg); */
+      /* transform: scale(1, 2); */
+      transform: skewY(-20deg);
+
+  transition: transform 0.5s ease;
+}
